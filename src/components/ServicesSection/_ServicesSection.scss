@@ -1,0 +1,16 @@
+/* --------- Services_Section ------- */
+
+.services-section {
+    background-color: var(--clr-grey);
+
+    /* background-image: url(../public/images/blob.svg);
+    background-position-x: right;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+    &__content {
+        margin-top: 8rem;
+        padding: 0 2rem;
+    }
+}

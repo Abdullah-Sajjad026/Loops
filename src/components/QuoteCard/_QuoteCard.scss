@@ -1,0 +1,24 @@
+/* ---- QuoteCard ----- */
+.quote-card {
+    background-image: url(../public/images/quote.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 95%;
+    background-size: 30%;
+    border: 1px solid #dadada;
+    padding: 3rem;
+
+    &__author {
+        margin-top: 2.2rem;
+
+        &-name {
+            font-size: 2rem;
+            color: var(--clr-blue-txt);
+        }
+
+        &-position {
+            font-size: 1.4rem;
+            color: var(--clr-light);
+        }
+    }
+
+}

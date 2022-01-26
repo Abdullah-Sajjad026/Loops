@@ -1,0 +1,36 @@
+/* --------- Hero -------- */
+.hero {
+    padding-top: 18rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.3)), url(../public/images/bg.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    object-fit: fill;
+
+    @include respond(650px) {
+        background-position: center left;
+    }
+
+    &__text-col {
+        h1 {
+            font-size: 6.4rem;
+            font-weight: 400;
+            letter-spacing: .6px;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+
+            @include respond(350px) {
+                font-size: 5rem;
+            }
+        }
+
+        .btn {
+            margin-top: 4rem;
+        }
+    }
+
+    span {
+        @include respond(768px) {
+            display: none;
+        }
+    }
+}

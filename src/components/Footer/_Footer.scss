@@ -1,0 +1,101 @@
+// footer 3
+.footer {
+    border-top: 1px solid #efefef;
+    background-color: var(--clr-white);
+    padding: 4rem 2%;
+
+    .site-logo {
+        color: white;
+
+        a {
+            font-size: 3rem;
+            color: var(--clr-blue);
+        }
+    }
+
+    .social-icons {
+        li {
+            display: inline-block;
+
+            &:not(:last-child) {
+                margin-right: 1rem;
+            }
+
+            a {
+                display: inline-block;
+                position: relative;
+                width: 4rem;
+                height: 4rem;
+                border-radius: 50%;
+
+                &.dr {
+                    background: #ff2e6e;
+                }
+
+                &.be {
+                    background: #394cff;
+                }
+
+                &.tw {
+                    background: #00a0fb;
+                }
+
+                &.in {
+                    background: #c31574;
+                }
+
+                &.fb {
+                    background: #3b579b;
+                }
+
+                &.yt {
+                    background: #fa2614;
+                }
+
+                span {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    ion-icon {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .nav-links {
+        li {
+            display: inline-block;
+
+            &:not(:last-child) {
+                margin-right: 1rem;
+            }
+
+            a {
+                font-size: 1.8rem;
+                color: #777;
+                padding: 1rem;
+                transition: color .2s ease-in-out;
+
+                &:hover {
+                    color: rgba(0, 0, 0, .9);
+                }
+            }
+        }
+
+    }
+
+    .copyright {
+        border-top: 1px solid #efefef;
+        padding-top: 5rem;
+        text-align: center;
+        color: #777;
+    }
+}

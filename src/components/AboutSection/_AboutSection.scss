@@ -1,0 +1,10 @@
+/* --------- About_Section ------- */
+.about-section {
+    &__text {
+        p {
+            @include respond(768px) {
+                margin-top: 6rem;
+            }
+        }
+    }
+}
