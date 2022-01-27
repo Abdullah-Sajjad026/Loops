@@ -29,7 +29,7 @@
 html {
     font-size: 10px;
 
-    @include respond(990px) {
+    @include respond(991px) {
         font-size: 9.5px;
     }
 
@@ -51,6 +51,7 @@ body {
 
 section {
     padding: 10rem 2%;
+    position: relative;
 }
 
 p {
@@ -104,6 +105,9 @@ h2.section-title {
     color: var(--clr-white);
 }
 
+.page-title-container {
+    padding: 9rem 0;
+}
 
 
 /* ------------------ GRIDS ------------ */

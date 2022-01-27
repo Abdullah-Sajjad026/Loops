@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -6,26 +7,26 @@ const Navbar = () => {
 
         <nav class="navbar navbar-expand-lg navbar-light p-4">
             <div class="container">
-                <a class="navbar-brand" href="#">Loops Tech</a>
+                <p className='mb-0 navbar-brand'>Loops Tech</p>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mt-3 mt-lg-0 mb-lg-0">
                         <li class="nav-item px-2">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <Link to={`/`} className='nav-link'>Home</Link>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="#about-section">About Us</a>
+                            <Link to={`/about`} className='nav-link'>About Us</Link>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="#">Projects</a>
+                            <Link to={`/projects`} className='nav-link'>Projects</Link>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="#services-section">Services</a>
+                            <Link to={`/services`} className='nav-link'>Services</Link>
                         </li>
                         <li className="nav-item">
-                            <a href="#contact-section" className="nav-cta">Contact Us</a>
+                            <Link to={`/contact`} className='nav-cta'>Contact</Link>
                         </li>
                     </ul>
                 </div>

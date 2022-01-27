@@ -1,16 +1,13 @@
 // footer 3
 .footer {
-    border-top: 1px solid #efefef;
     background-color: var(--clr-white);
     padding: 4rem 2%;
 
     .site-logo {
-        color: white;
+        font-size: 3rem;
+        color: var(--clr-blue);
 
-        a {
-            font-size: 3rem;
-            color: var(--clr-blue);
-        }
+
     }
 
     .social-icons {

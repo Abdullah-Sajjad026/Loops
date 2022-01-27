@@ -2,6 +2,47 @@
     background-image: linear-gradient(120deg, var(--clr-blue-txt) 0%, var(--clr-blue-light) 100%);
     font-size: inherit;
 
+    .custom-shape-divider-top-1643260333 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+
+    .custom-shape-divider-top-1643260333 svg {
+        position: relative;
+        display: block;
+        width: calc(108% + 1.3px);
+        height: 46px;
+    }
+
+    .custom-shape-divider-top-1643260333 .shape-fill {
+        fill: #FFFFFF;
+    }
+
+    .custom-shape-divider-bottom-1643260595 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+
+    .custom-shape-divider-bottom-1643260595 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 52px;
+    }
+
+    .custom-shape-divider-bottom-1643260595 .shape-fill {
+        fill: #FFFFFF;
+    }
+
     .row {
         font-size: 1.8rem;
     }

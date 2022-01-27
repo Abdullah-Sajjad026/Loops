@@ -1,0 +1,48 @@
+.projects-page {}
+
+.project {
+    &-card {
+        padding: 10rem 2%;
+
+        .btns {
+            a {
+                img {
+                    width: 17.5rem;
+                    height: 5.5rem;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+
+    &-icon {
+        width: 8rem;
+        margin-bottom: 1.4rem;
+    }
+
+    &-name {
+        font-size: 3.2rem;
+        margin-bottom: 1.6rem;
+        color: var(--clr-blue-txt);
+        line-height: 1.4;
+    }
+
+    &-category {
+        margin-bottom: 1.1rem;
+    }
+
+    &-desc {
+        margin-bottom: 5rem;
+        font-weight: 300;
+    }
+
+    &-mockup {
+        width: 30rem;
+    }
+}
+
+.projects-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 2%;
+}

@@ -1,5 +1,7 @@
 @import "./globals";
 
+@import "./pages/ProjectsPage/ProjectsPage";
+
 @import "./components/Navbar/Navbar";
 @import "./components/Hero/Hero";
 @import "./components/AboutSection/AboutSection";
@@ -11,3 +13,4 @@
 
 @import "./components/QuoteCard/QuoteCard";
 @import "./components/ServiceCard/ServiceCard";
+@import "./components/PageHero/PageHero";
