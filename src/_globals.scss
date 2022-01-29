@@ -106,7 +106,23 @@ h2.section-title {
 }
 
 .page-title-container {
-    padding: 9rem 0;
+    padding: 6rem 5%;
+}
+
+.page-title {
+    font-size: 6.4rem;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+
+    @include respond(350px) {
+        font-size: 5rem;
+    }
+
+    &-img {
+        width: 80%;
+    }
 }
 
 

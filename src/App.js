@@ -5,6 +5,7 @@ import ContactSection from './components/ContactSection/ContactSection';
 import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage/HomePage'
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage'
+import AboutPage from './pages/AboutPage/AboutPage'
 
 const App = () => {
     return (
@@ -14,7 +15,7 @@ const App = () => {
 
                 <Switch>
                     <Route path="/" component={HomePage} exact />
-                    {/* <Route path="/about" component={AboutPage} exact /> */}
+                    <Route path="/about" component={AboutPage} exact />
                     <Route path="/projects" component={ProjectsPage} exact />
                     {/* <Route path="/services" component={ServicesPage} exact /> */}
                     <Route path="/contact" component={ContactSection} exact />

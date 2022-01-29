@@ -99,7 +99,24 @@ h2.section-title {
 }
 
 .page-title-container {
-  padding: 9rem 0;
+  padding: 6rem 5%;
+}
+
+.page-title {
+  font-size: 6.4rem;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 350px) {
+  .page-title {
+    font-size: 5rem;
+  }
+}
+.page-title-img {
+  width: 80%;
 }
 
 /* ------------------ GRIDS ------------ */
@@ -168,26 +185,38 @@ h2.section-title {
   padding: 10rem 2%;
 }
 
+.project-card:nth-child(even) {
+  background-color: var(--clr-grey);
+}
+
+.project-card:last-child {
+  border-bottom: 1px solid var(--bs-gray-300);
+}
+
 .project-card .btns a img {
   width: 17.5rem;
   height: 5.5rem;
   border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.project-card .btns a img:hover {
+  transform: scale(0.96);
 }
 
 .project-icon {
   width: 8rem;
-  margin-bottom: 1.4rem;
 }
 
 .project-name {
   font-size: 3.2rem;
-  margin-bottom: 1.6rem;
+  margin: 2.8rem 0 2.3rem 0;
   color: var(--clr-blue-txt);
   line-height: 1.4;
 }
 
 .project-category {
-  margin-bottom: 1.1rem;
+  margin-bottom: 1.6rem;
 }
 
 .project-desc {
@@ -199,10 +228,18 @@ h2.section-title {
   width: 30rem;
 }
 
-.projects-container {
+.project-container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 2%;
+  padding: 0 3%;
+}
+
+.location-box h3 {
+  font-size: 2rem;
+}
+
+.location-box li {
+  font-size: 1.8rem;
 }
 
 .navbar {
@@ -226,7 +263,7 @@ h2.section-title {
 .nav-cta {
   text-decoration: none;
   margin: 1rem;
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   background-color: var(--clr-blue);
   color: white;
   display: flex;
@@ -245,29 +282,30 @@ h2.section-title {
 /* --------- Hero -------- */
 .hero {
   padding-top: 18rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.3)), url(../public/images/bg.jpg);
-  background-position: top left;
-  background-repeat: no-repeat;
-  object-fit: fill;
+  position: relative;
   min-height: 75vh;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.hero-bg video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 650px) {
   .hero {
     background-position: center left;
-  }
-}
-.hero__text-col h1 {
-  font-size: 6.4rem;
-  font-weight: 400;
-  letter-spacing: 0.6px;
-  line-height: 1.2;
-  margin-bottom: 1rem;
-}
-
-@media only screen and (max-width: 350px) {
-  .hero__text-col h1 {
-    font-size: 5rem;
   }
 }
 .hero__text-col .btn {
@@ -476,6 +514,11 @@ h2.section-title {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer .social-icons li a:hover {
+  opacity: 0.9;
 }
 
 .footer .social-icons li a.dr {
@@ -498,6 +541,14 @@ h2.section-title {
   background: #3b579b;
 }
 
+.footer .social-icons li a.wa {
+  background: #25D366;
+}
+
+.footer .social-icons li a.gm {
+  background: #EA4335;
+}
+
 .footer .social-icons li a.yt {
   background: #fa2614;
 }
@@ -513,8 +564,8 @@ h2.section-title {
   align-items: center;
 }
 
-.footer .social-icons li a span ion-icon {
-  font-size: 2.5rem;
+.footer .social-icons li a span i {
+  font-size: 2.6rem;
 }
 
 .footer .nav-links li {
@@ -606,15 +657,6 @@ h2.section-title {
   font-size: 1.8rem;
 }
 
-/*# sourceMappingURL=App.css.map */
-/*# sourceMappingURL=App.css.map */
-/*# sourceMappingURL=App.css.map */
-/*# sourceMappingURL=App.css.map */
-/*# sourceMappingURL=App.css.map */
-/*# sourceMappingURL=App.css.map */
-/*# sourceMappingURL=App.css.map */
-/*# sourceMappingURL=App.css.map */
-/*# sourceMappingURL=App.css.map */
 /*# sourceMappingURL=App.css.map */
 /*# sourceMappingURL=App.css.map */
 /*# sourceMappingURL=App.css.map */

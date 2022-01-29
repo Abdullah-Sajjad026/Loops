@@ -16,9 +16,11 @@ const Footer = () => {
                 </div>
                 <div class="col-md-8 text-md-end">
                     <ul class="list-unstyled social-icons">
-                        <li><a href="#" class="fb"><span class="icon-facebook"><ion-icon name="logo-facebook"></ion-icon></span></a></li>
-                        <li><a href="#" class="tw"><span class="icon-twitter"><ion-icon name="logo-twitter"></ion-icon></span></a></li>
-                        <li><a href="#" class="in"><span class="icon-instagram"><ion-icon name="logo-instagram"></ion-icon></span></a></li>
+                        <li><a href="https://www.facebook.com/loops.technology" class="fb"><span class="icon-facebook"><i class="fab fa-facebook-f"></i></span></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=+923455070097" class="wa"><span class="icon-whatsapp"><i class="fab fa-whatsapp"></i></span></a></li>
+                        <li><a href="mailto:saadameen@loops-tech.com" class="gm"><span class="icon-gmail"><i class="far fa-envelope"></i></span></a></li>
+                        {/* <li><a href="" class="tw"><span class="icon-twitter"><ion-icon name="logo-twitter"></ion-icon></span></a></li> */}
+                        {/* <li><a href="#" class="in"><span class="icon-instagram"><ion-icon name="logo-instagram"></ion-icon></span></a></li> */}
                         {/* <li><a href="#" class="be"><span class="icon-behance"></span></a></li>
                         <li><a href="#" class="dr"><span class="icon-dribbble"></span></a></li>
                         <li><a href="#" class="yt"><span class="icon-play"></span></a></li> */}
@@ -32,8 +34,8 @@ const Footer = () => {
                     <ul class="nav-links list-unstyled">
                         <li><Link to={`/`}> Home </Link></li>
                         <li><Link to={`/about`}> About </Link></li>
-                        <li><Link to={`/projects`}> Projects </Link></li>
                         <li><Link to={`/services`}> Services </Link></li>
+                        <li><Link to={`/contact`}> Contact </Link></li>
                     </ul>
                 </div>
             </div>
