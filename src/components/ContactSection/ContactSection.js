@@ -23,8 +23,8 @@ const ContactSection = () => {
                             <ul class="list-unstyled mb-5">
                                 <li class="d-flex text-white mb-2">
                                     <span class="mr-3"><span class="icon-map"></span></span> Street#, RYK, Pakistan</li>
-                                <li class="d-flex text-white mb-2"><span class="mr-3"><span class="icon-phone"></span></span> +92000-0000000</li>
-                                <li class="d-flex text-white"><span class="mr-3"><span class="icon-envelope-o"></span></span> info@mywebsite.com </li>
+                                <li class="d-flex text-white mb-2"><span class="mr-3"><span class="icon-phone"></span></span> +92345-5070097</li>
+                                <li class="d-flex text-white"><span class="mr-3"><span class="icon-envelope-o"></span></span> saadameen@loops-tech.com </li>
                             </ul>
                         </div>
                     </div>

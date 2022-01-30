@@ -9,7 +9,7 @@ const ServicesPage = () => {
                     <h1 className="page-title">Our Services</h1>
                 </div>
                 <div className="col-sm-6 mt-sm-0 mt-3 d-flex  align-items-center justify-content-center">
-                    <img src="./images/Company-pana.svg" className='page-title-img' alt="Page Title Image" />
+                    <img src={`${process.env.PUBLIC_URL}/images/Company-pana.svg`} className='page-title-img' alt="Page Title Image" />
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@ const ServiceCard = ({ name, desc, imgUrl }) => {
                     </div>
                 </div>
                 <div className="col-md-4 order-md-1 order-0 d-flex align-items-center py-5 py-md-0 justify-content-md-center">
-                    <img src={`./images/${imgUrl}Icon.svg`} className='service-img' alt={`${name} Icon`} />
+                    <img src={`${process.env.PUBLIC_URL}/images/${imgUrl}Icon.svg`} className='service-img' alt={`${name} Icon`} />
                 </div>
             </div>
         </article>
