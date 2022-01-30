@@ -312,6 +312,7 @@ h2.section-title {
   overflow: hidden;
   z-index: -1;
   filter: brightness(0.7) blur(2px);
+  transform: scale(1.1);
 }
 .hero-bg video {
   height: 100%;

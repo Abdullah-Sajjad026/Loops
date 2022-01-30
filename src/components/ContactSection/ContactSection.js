@@ -15,7 +15,7 @@ const ContactSection = () => {
                 <div class="col-lg-6 mr-auto">
                     <div class="mb-5">
                         <h2 class="section-title text-white mb-4">Contact Info</h2>
-                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus blanditiis, perferendis aliquam.</p>
+                        <p class="text-white">If you have any questions or comments, please get in touch with us.</p>
                     </div>
                     <div class="row">
                         <div class="mb-4 mb-lg-0 col-md-6">

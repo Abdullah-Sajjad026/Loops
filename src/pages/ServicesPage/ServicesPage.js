@@ -58,7 +58,7 @@ const ServicesPage = () => {
 
 const ServiceCard = ({ name, desc, imgUrl }) => {
     return (
-        <article className='service-page-card d-block'>
+        <article className='service-page-card d-block' id={name}>
             <div className="row container mx-auto">
                 <div className="col-md-8 order-md-0 order-1 d-flex align-items-center py-4 py-md-0 pe-5">
                     <div className="service-info">

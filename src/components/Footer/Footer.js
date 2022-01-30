@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 
 const Footer = () => {
@@ -32,10 +32,10 @@ const Footer = () => {
 
                 <div class="col-md-6 text-md-center mx-md-auto">
                     <ul class="nav-links list-unstyled">
-                        <li><Link to={`/`}> Home </Link></li>
-                        <li><Link to={`/about`}> About </Link></li>
-                        <li><Link to={`/services`}> Services </Link></li>
-                        <li><Link to={`/contact`}> Contact </Link></li>
+                        <li><HashLink smooth to={`/#top`}> Home </HashLink></li>
+                        <li><HashLink smooth to={`/about#top`}> About </HashLink></li>
+                        <li><HashLink smooth to={`/services#top`}> Services </HashLink></li>
+                        <li><HashLink smooth to={`/contact#top`}> Contact </HashLink></li>
                     </ul>
                 </div>
             </div>

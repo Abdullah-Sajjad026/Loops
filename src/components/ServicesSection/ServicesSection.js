@@ -11,10 +11,10 @@ const ServicesSection = () => {
                 <div className="services-section__content">
 
                     <ServiceCard title="Android Development" imgUrl="android" />
-                    <ServiceCard title="IOS Development" imgUrl="apple" />
-                    <ServiceCard title="Third Party Marketing" imgUrl="digital-marketing" />
+                    <ServiceCard title="IOS App Development" imgUrl="apple" />
+                    <ServiceCard title="Third-Party Marketing" imgUrl="digital-marketing" />
                     <ServiceCard title="Quality Assurance" imgUrl="testing" />
-                    <ServiceCard title="Game Development" imgUrl="game" />
+                    <ServiceCard title="Android Game Development" imgUrl="game" />
 
                 </div>
             </div>
