@@ -166,7 +166,7 @@ h2.section-title {
         grid-template-columns: 1fr 1fr;
     }
 
-    @include respond(350px) {
+    @include respond(500px) {
         grid-template-columns: 1fr;
     }
 }
