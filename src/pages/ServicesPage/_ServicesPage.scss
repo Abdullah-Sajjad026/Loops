@@ -1,0 +1,23 @@
+.service {
+    &-title {
+        font-size: 3.2rem;
+        color: var(--clr-blue-txt);
+    }
+
+    &-img {
+        width: 18rem;
+        height: auto;
+
+        @include respond(768px) {
+            width: 10rem;
+        }
+    }
+
+    &-page-card {
+        padding: 6rem 3%;
+
+        &:nth-child(odd) {
+            background-color: var(--clr-grey);
+        }
+    }
+}

@@ -7,6 +7,7 @@
     // object-fit: fill;
     position: relative;
     min-height: 75vh;
+    overflow: hidden;
 
     &-bg {
         position: absolute;
@@ -15,8 +16,8 @@
         height: 100%;
         width: 100%;
         overflow: hidden;
-        opacity: .4;
         z-index: -1;
+        filter: brightness(0.7) blur(2px);
 
         video {
             height: 100%;
@@ -31,6 +32,7 @@
     }
 
     &__text-col {
+        color: var(--clr-white);
 
         .btn {
             margin-top: 4rem;

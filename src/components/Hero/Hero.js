@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
     return (
@@ -14,7 +15,7 @@ const Hero = () => {
                     <h1 className='page-title'>LOOPS - <br /> Latest Optimized and Organized Programming Solutions</h1>
                     <p className='huge'>Your partner for incredible mobile and web products.
                         Finally delivered in great quality and on time.</p>
-                    <a href="#" className="btn btn--block">Let's Work Together</a>
+                    <Link to='/contact' className="btn btn--block">Let's Work Together</Link>
                 </div>
                 <span className='hero__col-placeholder'></span>
             </div>

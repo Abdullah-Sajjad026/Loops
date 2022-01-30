@@ -119,6 +119,10 @@ h2.section-title {
   width: 80%;
 }
 
+.page-title p {
+  font-weight: 300;
+}
+
 /* ------------------ GRIDS ------------ */
 .hero .container {
   display: grid;
@@ -242,6 +246,37 @@ h2.section-title {
   font-size: 1.8rem;
 }
 
+.location-box h3 {
+  font-size: 2rem;
+}
+
+.location-box li {
+  font-size: 1.8rem;
+}
+
+.service-title {
+  font-size: 3.2rem;
+  color: var(--clr-blue-txt);
+}
+
+.service-img {
+  width: 18rem;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .service-img {
+    width: 10rem;
+  }
+}
+.service-page-card {
+  padding: 6rem 3%;
+}
+
+.service-page-card:nth-child(odd) {
+  background-color: var(--clr-grey);
+}
+
 .navbar {
   font-size: 1.8rem;
   font-family: inherit;
@@ -284,6 +319,7 @@ h2.section-title {
   padding-top: 18rem;
   position: relative;
   min-height: 75vh;
+  overflow: hidden;
 }
 
 .hero-bg {
@@ -293,8 +329,8 @@ h2.section-title {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  opacity: 0.4;
   z-index: -1;
+  filter: brightness(0.7) blur(2px);
 }
 
 .hero-bg video {
@@ -308,6 +344,10 @@ h2.section-title {
     background-position: center left;
   }
 }
+.hero__text-col {
+  color: var(--clr-white);
+}
+
 .hero__text-col .btn {
   margin-top: 4rem;
 }
@@ -657,6 +697,36 @@ h2.section-title {
   font-size: 1.8rem;
 }
 
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.css.map */
 /*# sourceMappingURL=App.css.map */
 /*# sourceMappingURL=App.css.map */
 /*# sourceMappingURL=App.css.map */
