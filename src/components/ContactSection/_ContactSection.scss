@@ -2,7 +2,7 @@
     background-image: linear-gradient(120deg, var(--clr-blue-txt) 0%, var(--clr-blue-light) 100%);
     font-size: inherit;
 
-    .custom-shape-divider-top-1643260333 {
+    .contact-top-divider {
         position: absolute;
         top: 0;
         left: 0;
@@ -11,15 +11,15 @@
         line-height: 0;
     }
 
-    .custom-shape-divider-top-1643260333 svg {
+    .contact-top-divider svg {
         position: relative;
         display: block;
         width: calc(108% + 1.3px);
         height: 46px;
     }
 
-    .custom-shape-divider-top-1643260333 .shape-fill {
-        fill: #FFFFFF;
+    .contact-top-divider .shape-fill {
+        fill: var(--clr-grey);
     }
 
     .custom-shape-divider-bottom-1643260595 {

@@ -361,6 +361,25 @@ h2.section-title {
   }
 }
 
+.about-section__b-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.about-section__b-layer svg {
+  position: relative;
+  display: block;
+  width: calc(298% + 1.3px);
+  height: 66px;
+}
+.about-section__b-layer .shape-fill {
+  fill: var(--clr-grey);
+}
+
 /* --------- Services_Section ------- */
 .services-section {
   background-color: var(--clr-grey);
@@ -373,42 +392,6 @@ h2.section-title {
   margin-top: 8rem;
   padding: 0 2rem;
 }
-.services-section__layer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-.services-section__layer svg {
-  position: relative;
-  display: block;
-  width: calc(211% + 1.3px);
-  height: 30px;
-}
-.services-section__layer .shape-fill {
-  fill: #FFFFFF;
-}
-
-.services-section__b-layer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-.services-section__b-layer svg {
-  position: relative;
-  display: block;
-  width: calc(298% + 1.3px);
-  height: 66px;
-}
-.services-section__b-layer .shape-fill {
-  fill: #FFFFFF;
-}
 
 /* --------------- TestimonialsSection ----------- */
 .testimonials-section__content {
@@ -420,7 +403,7 @@ h2.section-title {
   background-image: linear-gradient(120deg, var(--clr-blue-txt) 0%, var(--clr-blue-light) 100%);
   font-size: inherit;
 }
-.contact-section .custom-shape-divider-top-1643260333 {
+.contact-section .contact-top-divider {
   position: absolute;
   top: 0;
   left: 0;
@@ -428,14 +411,14 @@ h2.section-title {
   overflow: hidden;
   line-height: 0;
 }
-.contact-section .custom-shape-divider-top-1643260333 svg {
+.contact-section .contact-top-divider svg {
   position: relative;
   display: block;
   width: calc(108% + 1.3px);
   height: 46px;
 }
-.contact-section .custom-shape-divider-top-1643260333 .shape-fill {
-  fill: #FFFFFF;
+.contact-section .contact-top-divider .shape-fill {
+  fill: var(--clr-grey);
 }
 .contact-section .custom-shape-divider-bottom-1643260595 {
   position: absolute;

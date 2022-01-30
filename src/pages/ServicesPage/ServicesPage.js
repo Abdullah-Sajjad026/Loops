@@ -26,12 +26,12 @@ const ServicesPage = () => {
 
             <ServiceCard
                 name='Android Development'
-                desc='Android Apps Development is one of core production of The Apps Land. Our expert developers are working on wide range of android apps. Do you want to get a android app for your business or for publishing purpose, you are on right place. We will develop apps for you. For more info, please contact us'
+                desc='Android Apps Development is one of core production of LOOPS. Our expert developers are working on wide range of android apps. Do you want to get a android app for your business or for publishing purpose, you are on right place. We will develop apps for you. For more info, please contact us'
                 imgUrl='android'
             />
             <ServiceCard
                 name='Third-Party Marketing'
-                desc='Are you mobile app or website developer and want to reach more users? You are just a few clicks away from your goal. The Apps Land also provide third party marketing services for android apps, iOS apps on multiple stores like Google Play, Samsung App Store, Amazon App Store, Huawei App Gallery and other android base app stores and also marketing on Apple App Store. We have multiple plans and wide range of ideas for marketing your apps. Grow your business with proper markeeitng and contact us for marketing of apps and our apps markeeitng team will made best marketing strategies according to your requirements.'
+                desc='Are you mobile app or website developer and want to reach more users? You are just a few clicks away from your goal. LOOPS also provide third party marketing services for android apps, iOS apps on multiple stores like Google Play, Samsung App Store, Amazon App Store, Huawei App Gallery and other android base app stores and also marketing on Apple App Store. We have multiple plans and wide range of ideas for marketing your apps. Grow your business with proper markeeitng and contact us for marketing of apps and our apps markeeitng team will made best marketing strategies according to your requirements.'
                 imgUrl='digital-marketing'
             />
             <ServiceCard
@@ -41,7 +41,7 @@ const ServicesPage = () => {
             />
             <ServiceCard
                 name='IOS App Development'
-                desc='The Apps Land has expert iOS developers as well. We provide services for iOS development and solutions as well. Just tell us your idea and we made it real for you. Contact us for further info'
+                desc='LOOPS has expert iOS developers as well. We provide services for iOS development and solutions as well. Just tell us your idea and we made it real for you. Contact us for further info'
                 imgUrl='apple'
             />
             <ServiceCard
