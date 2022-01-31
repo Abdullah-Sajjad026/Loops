@@ -25,8 +25,8 @@ const AboutPage = () => {
                     <h3 className="mt-4">Rahim Yar Khan</h3>
                     <ul className="list-unstyled mb-5">
                         <li className='mb-2'>Street#, RYK, Pakistan</li>
-                        <li className='mb-2'>+92000-0000000</li>
-                        <li>info@mywebsite.com</li>
+                        <li className='mb-2'>+92345-5070090</li>
+                        <li>saadameen@loops-tech.com</li>
                     </ul>
                     <Link to={'/contact'} className='btn btn--block'>Contact Us</Link>
                 </article>
