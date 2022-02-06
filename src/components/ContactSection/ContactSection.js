@@ -33,25 +33,25 @@ const ContactSection = () => {
                 <div class="col-lg-6">
                     <div class="box">
                         <h3>Send us a message</h3>
-                        <form class="mb-5" id="contactForm" name="contactForm">
+                        <form class="mb-5" id="contactForm" name="contactForm" action='https://usebasin.com/f/247aaf7f31e9' method='POST'>
                             <div class="row">
 
                                 <div class="col-md-12 form-group mb-4">
                                     <label for="name" class="col-form-label">Name</label>
-                                    <input type="text" class="form-control" name="name" id="name"></input>
+                                    <input type="text" class="form-control" name="name" id="name" required></input>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12 form-group mb-4">
                                     <label for="email" class="col-form-label">Email</label>
-                                    <input type="text" class="form-control" name="email" id="email"></input>
+                                    <input type="text" class="form-control" name="email" id="email" required></input>
                                 </div>
                             </div>
 
                             <div class="row mb-3">
                                 <div class="col-md-12 form-group mb-4">
                                     <label for="message" class="col-form-label">Message</label>
-                                    <textarea class="form-control" name="message" id="message" cols="30" rows="7"></textarea>
+                                    <textarea class="form-control" name="message" id="message" cols="30" rows="7" required></textarea>
                                 </div>
                             </div>
                             <div class="row">
