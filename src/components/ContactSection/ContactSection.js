@@ -23,7 +23,7 @@ const ContactSection = () => {
                             <ul class="list-unstyled mb-5">
                                 <li class="d-flex text-white mb-2">
                                     <span class="mr-3"><span class="icon-map"></span></span> Street#, RYK, Pakistan</li>
-                                <li class="d-flex text-white mb-2"><span class="mr-3"><span class="icon-phone"></span></span> +92345-5070097</li>
+                                <li class="d-flex text-white mb-2"><span class="mr-3"><span class="icon-phone"></span></span> +92 345-5070097</li>
                                 <li class="d-flex text-white"><span class="mr-3"><span class="icon-envelope-o"></span></span> saadameen@loops-tech.com </li>
                             </ul>
                         </div>
@@ -33,7 +33,7 @@ const ContactSection = () => {
                 <div class="col-lg-6">
                     <div class="box">
                         <h3>Send us a message</h3>
-                        <form class="mb-5" id="contactForm" name="contactForm" action='https://usebasin.com/f/247aaf7f31e9' method='POST'>
+                        <form class="mb-5" id="contactForm" target="_blank" name="contactForm" action='https://usebasin.com/f/247aaf7f31e9' method='POST'>
                             <div class="row">
 
                                 <div class="col-md-12 form-group mb-4">
@@ -57,7 +57,6 @@ const ContactSection = () => {
                             <div class="row">
                                 <div class="col-md-12">
                                     <input type="submit" value="Send Message" class="btn btn-block btn-primary"></input>
-                                    <span class="submitting"></span>
                                 </div>
                             </div>
                         </form>

@@ -5,10 +5,11 @@ const Hero = () => {
     return (
         <section className='hero'>
             <div className="hero-bg">
-                <video preload='auto' muted loop autoplay poster='./images/loops-poster.jpg'>
+                <img src="./images/loops-poster.jpg" alt="hero-bg" />
+                {/* <video preload='auto' muted loop autoplay poster='./images/loops-poster.jpg'>
                     <source src='./images/hero-bg.mp4' type="video/mp4" />
                     Your browser does not support the video tag.
-                </video>
+                </video> */}
             </div>
             <div className="container">
                 <div className="hero__text-col">

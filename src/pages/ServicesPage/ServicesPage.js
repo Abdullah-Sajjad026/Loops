@@ -9,7 +9,7 @@ const ServicesPage = () => {
                     <h1 className="page-title">Our Services</h1>
                 </div>
                 <div className="col-sm-6 mt-sm-0 mt-3 d-flex  align-items-center justify-content-center">
-                    <img src={`${process.env.PUBLIC_URL}/images/Company-pana.svg`} className='page-title-img' alt="Page Title Image" />
+                    <img src={`${process.env.PUBLIC_URL}/images/Company-pana.svg`} className='page-title-img' alt="Page Title" />
                 </div>
             </div>
         </div>
