@@ -26,6 +26,12 @@
             object-fit: cover;
         }
 
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
     }
 
     @include respond(650px) {
