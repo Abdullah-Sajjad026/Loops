@@ -45,13 +45,13 @@ const ContactSection = () => {
                     <span class="mr-3">
                       <span class="icon-map"></span>
                     </span>{" "}
-                    C87P+G8P, Rahim Yar Khan, Pakistan
+                    Canal Gardens, Rahim Yar Khan, Pakistan
                   </li>
                   <li class="d-flex text-white mb-2">
                     <span class="mr-3">
                       <span class="icon-phone"></span>
                     </span>{" "}
-                    jobs@loops-tech.com
+                    info@loops-tech.com
                   </li>
 
                   <li class="d-flex text-white">
