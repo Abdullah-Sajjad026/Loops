@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const AboutPage = () => {
   return (
@@ -25,17 +25,17 @@ const AboutPage = () => {
             <p className="mt-5">
               Welcome to Loops, your number one source for all things
               Programming Solutions. We're dedicated to providing you the best
-              of software development services, with a focus on dependability.
-              customer satisfaction, and [store characteristic].We're working to
-              turn our ideo into a digital solution. We hope you enjoy our
-              products as much as we enjoy offering them to you.
+              of software development services, with a focus on dependability
+              and customer satisfaction. We're working to turn our ideo into a
+              digital solution. We hope you enjoy our products as much as we
+              enjoy offering them to you.
             </p>
           </article>
           <article className="mt-5 location-box">
-            <h2 className="section-title">Location</h2>
-            <h3 className="mt-4">Rahim Yar Khan</h3>
+            {/* <h2 className="section-title">Location</h2>
+            <h3 className="mt-4">Rahim Yar Khan</h3> */}
             <ul className="list-unstyled mb-5">
-              <li className="mb-2">C87P+G8P, Rahim Yar Khan, Pakistan</li>
+              {/* <li className="mb-2">C87P+G8P, Rahim Yar Khan, Pakistan</li> */}
 
               <li>saadameen@loops-tech.com</li>
               <li>Haseebch@loops-tech.com</li>

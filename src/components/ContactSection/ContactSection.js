@@ -39,14 +39,14 @@ const ContactSection = () => {
             </div>
             <div class="row">
               <div class="mb-4 mb-lg-0 col-md-6">
-                <h3 class="text-white mb-4">Rahim Yar Khan</h3>
+                {/* <h3 class="text-white mb-4">Rahim Yar Khan</h3> */}
                 <ul class="list-unstyled mb-5">
-                  <li class="d-flex text-white mb-2">
+                  {/* <li class="d-flex text-white mb-2">
                     <span class="mr-3">
                       <span class="icon-map"></span>
                     </span>{" "}
                     Canal Gardens, Rahim Yar Khan, Pakistan
-                  </li>
+                  </li> */}
                   <li class="d-flex text-white mb-2">
                     <span class="mr-3">
                       <span class="icon-phone"></span>
